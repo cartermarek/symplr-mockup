@@ -11,10 +11,112 @@
 			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 			crossorigin="anonymous"
 		/>
+		<link rel="stylesheet" href="./css/bootstrap.css" />
 		<title>Document</title>
 	</head>
 	<body>
 		<!-- NAVBAR -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"
+					><img
+						src="./theme/woburn-hospital_logo.png"
+						alt="woburn hospital logo"
+						width="auto"
+						height="45"
+				/></a>
+
+				<ul class="navbar-nav mr-auto">
+					<li class="p-2 nav-link">Search Job</li>
+					<li class="p-2 nav-link">Saved Jobs</li>
+					<li class="p-2 nav-link">Login</li>
+					<li class="p-2 nav-link">Test Link</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- JUMBROTRON W/ IMAGE -->
+		<div class="row">
+			<div class="col">
+				<div
+					class="jumbotron jumbotron-fluid position-relative"
+					style="
+						background-image: linear-gradient(
+								to bottom,
+								rgba(255, 255, 255, 0.5) 0%,
+								rgba(255, 255, 255, 0.5) 100%
+							),
+							url(./theme/hero_image.jpg);
+						height: 300px;
+						background-position: center;
+						background-repeat: no-repeat;
+						background-size: cover;
+					"
+				>
+					<!-- JUMBOTRON CONTENT -->
+					<div
+						class="position-absolute top-50 start-50 translate-middle text-center"
+					>
+						<h1 class="h4">Careers at Woburn Hospital</h1>
+						<p class="mb-5">
+							United Passion for Providing Excellent Health Care to All
+						</p>
+						<div
+							class="input-group input-group-sm mb-3 d-flex justify-content-between"
+						>
+							<input
+								type="text"
+								class="form-control col-lg-10"
+								placeholder="Enter keyword's"
+								style="width: 500px"
+							/>
+							<button class="btn btn-primary col-auto" type="button">
+								Search
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- OPPORTUNITIES SECTION -->
+		<div class="container mt-5 text-center">
+			<h2>Explore Career Opportunies</h2>
+			<div class="row">
+				<div
+					class="img-thumbnail"
+					style="
+						background-image: linear-gradient(
+								to bottom,
+								rgba(255, 255, 255, 0.75) 0%,
+								rgba(255, 255, 255, 0.75) 100%
+							),
+							url(./theme/category-image-1.jpg);
+						width: 300px;
+						height: 200px;
+						background-size: cover;
+						background-position: center center;
+					"
+				></div>
+				<div
+					class="img-thumbnail"
+					style="
+						background-image: linear-gradient(
+								to bottom,
+								rgba(128, 128, 128, 0.75) 0%,
+								rgba(128, 128, 128, 0.85) 100%
+							),
+							url(./theme/category-image-2.jpg);
+						width: 300px;
+						height: 200px;
+						background-size: cover;
+						background-position: center center;
+						color: rgb(128, 128, 128);
+					"
+				></div>
+				<div></div>
+			</div>
+		</div>
 
 		<!-- SCRIPT -->
 		<script
