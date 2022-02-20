@@ -12,6 +12,10 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="./css/bootstrap.css" />
+		<script
+			src="https://kit.fontawesome.com/7520723878.js"
+			crossorigin="anonymous"
+		></script>
 		<title>Document</title>
 	</head>
 	<body>
@@ -81,10 +85,10 @@
 
 		<!-- OPPORTUNITIES SECTION -->
 		<div class="container mt-5 text-center">
-			<h2>Explore Career Opportunies</h2>
-			<div class="row">
+			<h2 class="fs-5 mb-4">Explore Career Opportunies</h2>
+			<div class="row d-flex justify-content-center">
 				<div
-					class="img-thumbnail"
+					class="position-relative"
 					style="
 						background-image: linear-gradient(
 								to bottom,
@@ -97,9 +101,14 @@
 						background-size: cover;
 						background-position: center center;
 					"
-				></div>
+				>
+                <div class="position-absolute top-50 start-50 translate-middle">
+					<i class="fa-solid fa-hospital fa-xl"></i>
+                    <h6 class='fs-6' style="width:max-content">Provider Opportunities</h6>
+                </div>
+				</div>
 				<div
-					class="img-thumbnail"
+					class="position-relative"
 					style="
 						background-image: linear-gradient(
 								to bottom,
@@ -111,12 +120,65 @@
 						height: 200px;
 						background-size: cover;
 						background-position: center center;
-						color: rgb(128, 128, 128);
+						
 					"
-				></div>
-				<div></div>
+				>
+                <div class="position-absolute top-50 start-50 translate-middle">
+                <i class="fa-solid fa-user-doctor fa-xl"></i>
+                <h6 class="fs-6">Nursing</h6>
+				</div>
+            </div>
+				<div class="bg-primary position-relative" style="width: 300px; height: 200px">
+                    <div class="position-absolute top-50 start-50 translate-middle">
+                    <i class="fa-solid fa-magnifying-glass fa-xl" style="color: white;"></i>
+                    <h6 class='text-light fs-6' style="width:max-content;">Browse All Opportunities</h6>
+                </div>
+				</div>
+            </div>
 			</div>
 		</div>
+		<hr class="mb-5" />
+
+        <!-- FEATURED JOBS SECTION -->
+        <div class="">
+            <h2 class="text-center">Featured Jobs</h2>
+            <hr class="">
+            <div class="grid">
+                <div class="border g-col-4">
+                    <h3 class="text-primary">Clerk</h3>
+                    <i class="fa-solid fa-tag float-start"></i>
+                    <h6>Administrative/Clerical</h6>
+                    <i class="fa-solid fa-sitemap float-start"></i>
+                    <h6>Share's Therapy Services</h6>
+                    <i class="fa-solid fa-hospital float-start"></i>
+                    <h6>Rehab Services</h6>
+                    <i class="fa-solid fa-location-pin float-start"></i>
+                    <h6>Danville, NH, United States</h6>
+                </div>
+                <div class="border g-col-4">
+                    <h3 class="text-primary">Care Coordinator</h3>
+                    <i class="fa-solid fa-tag float-start"></i>
+                    <h6>Nursing</h6>
+                    <i class="fa-solid fa-sitemap float-start"></i>
+                    <h6>Mattoon Clinic</h6>
+                    <i class="fa-solid fa-hospital float-start"></i>
+                    <h6>Physician Services Clinic</h6>
+                    <i class="fa-solid fa-location-pin float-start"></i>
+                    <h6>Danville, NH, United States</h6>
+                </div>
+                <div class="border g-col-4">
+                    <h3 class="text-primary">Advanced Practice Nurse - 1912</h3>
+                    <i class="fa-solid fa-tag float-start"></i>
+                    <h6>Nursing</h6>
+                    <i class="fa-solid fa-sitemap float-start"></i>
+                    <h6>Cancer Program</h6>
+                    <i class="fa-solid fa-hospital float-start"></i>
+                    <h6>Home Health Services</h6>
+                    <i class="fa-solid fa-location-pin float-start"></i>
+                    <h6>Danville, NH, United States</h6>
+                </div>
+            </div>
+        </div>
 
 		<!-- SCRIPT -->
 		<script
