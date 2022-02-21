@@ -59,24 +59,26 @@
 				>
 					<!-- JUMBOTRON CONTENT -->
 					<div
-						class="position-absolute top-50 start-50 translate-middle text-center"
+						class="container position-absolute top-50 start-50 translate-middle text-center"
 					>
 						<h1 class="h4">Careers at Woburn Hospital</h1>
 						<p class="mb-5">
 							United Passion for Providing Excellent Health Care to All
 						</p>
 						<div
-							class="input-group input-group-sm mb-3 d-flex justify-content-between"
+							class="input-group input-group-sm mb-3 d-flex justify-content-center"
 						>
 							<input
 								type="text"
-								class="form-control col-lg-10"
+								class="form-control col-10"
 								placeholder="Enter keyword's"
-								style="width: 500px"
+								style="max-width: 600px"
 							/>
-							<button class="btn btn-primary col-auto" type="button">
-								Search
-							</button>
+                            <div class="ms-2 d-grid col-2">
+                                <button class="btn btn-primary col-auto col" type="button">
+                                    Search
+                                </button>
+                            </div>
 						</div>
 					</div>
 				</div>
@@ -84,8 +86,8 @@
 		</div>
 
 		<!-- OPPORTUNITIES SECTION -->
-		<div class="container mt-5 text-center">
-			<h2 class="fs-5 mb-4">Explore Career Opportunies</h2>
+		<div class="container-fluid mt-5 text-center border-bottom shadow-sm pb-3">
+			<h2 class="fs-5 mb-4 text-secondary">Explore Career Opportunies</h2>
 			<div class="row d-flex justify-content-center">
 				<div
 					class="position-relative"
@@ -137,46 +139,255 @@
             </div>
 			</div>
 		</div>
-		<hr class="mb-5" />
+		<!-- <hr class="mb-5" /> -->
 
         <!-- FEATURED JOBS SECTION -->
-        <div class="">
-            <h2 class="text-center">Featured Jobs</h2>
-            <hr class="">
-            <div class="grid">
-                <div class="border g-col-4">
-                    <h3 class="text-primary">Clerk</h3>
-                    <i class="fa-solid fa-tag float-start"></i>
+        <div class="container mt-5 pt-5 position-relative mb-5">
+            <h2 class="text-center text-uppercase fw-bold mb-4">Featured Jobs</h2>
+            <!-- 3 BOXES -->
+            <div class="row mt-4">
+                <div class="border shadow col bg-white ps-5 pt-4 pb-4 pe-5">
+                    <h5 class="text-primary">Clerk</h5>
+                    <i class="me-1 fa-solid fa-tag float-start"></i>
                     <h6>Administrative/Clerical</h6>
-                    <i class="fa-solid fa-sitemap float-start"></i>
+                    <i class="me-1 fa-solid fa-sitemap float-start"></i>
                     <h6>Share's Therapy Services</h6>
-                    <i class="fa-solid fa-hospital float-start"></i>
+                    <i class="me-1 fa-solid fa-hospital float-start"></i>
                     <h6>Rehab Services</h6>
-                    <i class="fa-solid fa-location-pin float-start"></i>
+                    <i class="me-1 fa-solid fa-location-pin float-start"></i>
                     <h6>Danville, NH, United States</h6>
                 </div>
-                <div class="border g-col-4">
-                    <h3 class="text-primary">Care Coordinator</h3>
-                    <i class="fa-solid fa-tag float-start"></i>
+                <div class="border shadow col bg-white ms-4 me-4 ps-5 pt-4 pb-4 pe-5">
+                    <h5 class="text-primary">Care Coordinator</h5>
+                    <i class="me-1 fa-solid fa-tag float-start"></i>
                     <h6>Nursing</h6>
-                    <i class="fa-solid fa-sitemap float-start"></i>
+                    <i class="me-1 fa-solid fa-sitemap float-start"></i>
                     <h6>Mattoon Clinic</h6>
-                    <i class="fa-solid fa-hospital float-start"></i>
+                    <i class="me-1 fa-solid fa-hospital float-start"></i>
                     <h6>Physician Services Clinic</h6>
-                    <i class="fa-solid fa-location-pin float-start"></i>
+                    <i class="me-1 fa-solid fa-location-pin float-start"></i>
                     <h6>Danville, NH, United States</h6>
                 </div>
-                <div class="border g-col-4">
-                    <h3 class="text-primary">Advanced Practice Nurse - 1912</h3>
-                    <i class="fa-solid fa-tag float-start"></i>
+                <div class="border shadow col bg-white ps-5 pt-4 pb-4 pe-5">
+                    <h5 class="text-primary">Advanced Practice Nurse - 1912</h5>
+                    <i class="me-1 fa-solid fa-tag float-start"></i>
                     <h6>Nursing</h6>
-                    <i class="fa-solid fa-sitemap float-start"></i>
+                    <i class="me-1 fa-solid fa-sitemap float-start"></i>
                     <h6>Cancer Program</h6>
-                    <i class="fa-solid fa-hospital float-start"></i>
+                    <i class="me-1 fa-solid fa-hospital float-start"></i>
                     <h6>Home Health Services</h6>
-                    <i class="fa-solid fa-location-pin float-start"></i>
+                    <i class="me-1 fa-solid fa-location-pin float-start"></i>
                     <h6>Danville, NH, United States</h6>
                 </div>
+            </div>
+            
+            <!-- SEE ALL FEATURED JOBS BOX -->
+            <div class="mt-5 border shadow">
+               <h6 class="text-primary p-3">See all Featured jobs</h6> 
+            </div>
+
+            <div class="position-absolute bg-secondary" style="height: 150px; width: 99%; z-index: -2; top: 190px; left: -20px; opacity: 10%;">
+
+            </div>
+        </div>
+
+        <!-- EXPLORE SECTION -->
+        <div class="bg-light pt-4">
+            <h3 class="text-center fs-4 text-secondary mb-5">Explore Our Locations In San Francisco Bay Area</h3>
+            <div class="d-flex flex-column align-items-center text-secondary">
+                
+                
+                <!-- FIRST CARD -->
+                <div
+                class="position-relative mb-4"
+                style="
+                    background-image: 
+                        url(./theme/category-image-1.jpg);
+                    height: 200px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border-radius: 25px;
+                    width: 65%;
+                    "
+                >
+                    <div class="position-absolute w-50 top-0 start-0 p-4" style="background:rgba(255, 255, 255, 0.75); height: 100%">
+                        <h4 class="fs-5">Oakland</h4>
+                        <h6 class="lh-base" style="font-size:11px; letter-spacing: 1px;">Highland Hospital is Woburn Hospital flagship, with 236 inpatient beds; a renowned regional trauma center; nationally recognized medical and clinical teaching and research; and state-of-the-art primary, specialty, and multi-specialty care. Its new Acute Care Tower is host to topflight maternal child services and other advanced care.</h6>
+                    </div>
+                </div>
+
+                <!-- SECOND CARD -->
+                <div
+                class="position-relative mb-4"
+                style="
+                    background-image: 
+                        url(./theme/category-image-2.jpg);
+                    height: 200px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border-radius: 25px;
+                    width: 65%;
+                    "
+                >
+                    <div class="position-absolute w-50 top-0 end-0 p-4" style="background:rgba(255, 255, 255, 0.75); height: 100%">
+                        <h4 class="fs-5">Woburn</h4>
+                        <h6 class="lh-base" style="font-size:11px; letter-spacing: 1px;">Woburn Hospital is a leaader in providing emergency, inpatient, outpatient and wellness services to its island community. Comprehensive services include cardiology, 24-hour lab services; cancer care and infusion therapy, advanced diagnostic imaging, pulmonary and respiratory care; stroke center; and occupational, speech and physical therapy.</h6>
+                    </div>
+                </div>
+
+                <!-- THIRD CARD -->
+                <div
+                class="position-relative mb-4"
+                style="
+                    background-image: 
+                        url(./theme/accessory-image-2.jpg);
+                    height: 200px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border-radius: 25px;
+                    width: 65%;
+                    "
+                >
+                    <div class="position-absolute w-50 top-0 start-0 p-4" style="background:rgba(255, 255, 255, 0.75); height: 100%">
+                        <h4 class="fs-5">Hayward</h4>
+                        <h6 class="lh-base" style="font-size:11px; letter-spacing: 1px;">Hayward Wellness is one of four Woburn Hospital Wellness Centers serving as neighborhood medical homes delivering personalized dagnostlc, wellness and preventive care. Caregivers offer comprehensive, culturally appropriate services, information and resources for healthier living.</h6>
+                    </div>
+                </div>
+
+                <!-- FOURTH CARD -->
+                <div
+                class="position-relative mb-4"
+                style="
+                    background-image: 
+                        url(./theme/accessory-image-1.jpg);
+                    height: 200px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border-radius: 25px;
+                    width: 65%;
+                    "
+                >
+                    <div class="position-absolute w-50 top-0 end-0 p-4" style="background:rgba(255, 255, 255, 0.75); height: 100%">
+                        <h4 class="fs-5">San Leandro</h4>
+                        <h6 class="lh-base" style="font-size:11px; letter-spacing: 1px;">John George Psychiatric Hospital provides psychiatric care for patients with severe mental illness and is a leader in outpatient     care for those with less intense conditions. Services are designed to help patients stabilize, achieve goals, and develop skills and resources for vrellness and recovery.</h6>
+                    </div>
+                </div>
+
+                <!-- FIFTH CARD -->
+                <div
+                class="position-relative mb-5"
+                style="
+                    background-image: 
+                        url(./theme/category-image-1.jpg);
+                    height: 200px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border-radius: 25px;
+                    width: 65%;
+                    "
+                >
+                    <div class="position-absolute w-50 top-0 start-0 p-4" style="background:rgba(255, 255, 255, 0.75); height: 100%">
+                        <h4 class="fs-5">Boston</h4>
+                        <h6 class="lh-base" style="font-size:11px; letter-spacing: 1px;">Boston Wellness is one of four Woburn Hospital Wellness Centers serving as neighborhood medical homes delivering personalized diagnostic, wellness and preventive care. Caregivers offer comprehensive, culturally appropriate services, information and resources for healthier living</h6>
+                    </div>
+                </div>
+
+                <!-- MID PAGE BANNER -->
+                <div class="container-fluid d-flex justify-content-center align-items-center py-4 text-secondary border-bottom shadow" style="background: #ececec;">
+                    <div class="row d-flex align-items-center" style="width: 55%;">
+                        <div class="col-6">
+                            <h3 class="text-wrap fs-4 m-0">Join Our </h3>
+                            <h3 class="text-wrap fs-4 mb-3">Talent Network</h3>
+                            <h6 style="font-size: 12px;">Be the first to know about careers events, new openings, exclusive updates, and get job info that matches what you're looking for.</h6>
+                        </div>
+                        <div class="col-6">
+                            <button type="button" class="btn text-nowrap text-white" style="background: darkblue">Join our Talent Network</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BOTTOM CONTENT -->
+                <div class="row p-5">
+                    <!-- LEFT SIDE -->
+                    <div class="col-9 px-5 text-secondary">
+                        <h3 class="mb-3">Working at Woburn Hospital</h3>
+                        <div style="font-size:14px;">
+                            <p>Located in the Greater Boston area, Woburn Hospital has served our area since 1912. We are committed to our mission to improve the health of those we serve and to advance the wellness of our surrounding communities while delivering world-class patient care. As a premier healthcare employer in our region, we offer a wide range of career opportunities at every level of health care employment.</p>
+
+                            <p>We are a widlely-respected institution and our doctors work with the latest in state-of-the-art medical technologies. While we continue to build upon our 100-year reputation for excellent patient care, we are also focused on our role in the community in the future. Located just outside of Boston, Massachusetts, our patinets have access to a wide network of some of the nation's leading physicians and researchers. We also offer a comprehensive set of clinical services and community programs to meet the complex needs of our diverse community.</p>
+
+                            <p>Our true strength is our people, who are united in their passion for providing excellent health care and build a better tomorrow for our community.</p>
+
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus similique reprehenderit officiis ipsa, incidunt a quae, vitae voluptatibus sapiente eius corrupti non perspiciatis molestias hic sint nesciunt repudiandae, minus possimus?</p>
+
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde magnam exercitationem alias pariatur quisquam! Voluptatum, alias dolorum. Laudantium est animi nihil dolores inventore, nam nesciunt minima facere omnis voluptate hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, non! Qui dolorem modi labore praesentium eaque? Sapiente commodi possimus tempora totam suscipit expedita deserunt eveniet ducimus eligendi earum, reprehenderit officiis?</p>
+
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde magnam fugiat tempora natus pariatur rem magni quod repellat perspiciatis, iure excepturi deserunt est, laborum inventore minus sunt. Ipsum, nostrum reiciendis.</p>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit vitae assumenda ducimus commodi reprehenderit est possimus pariatur voluptate quaerat, maiores ab perferendis facere accusamus optio excepturi obcaecati iusto, corrupti delectus.</p>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT SIDE -->
+                    <div class="col-3">
+                        <div class="">
+
+                            <!-- CARD 1 -->
+                            <div class="p-2 bg-white border-start border-end border-top shadow" style="width: 18rem;">
+                                <!-- <img src="./theme/accessory-image-1.jpg" class="card-img-top" alt="image1">
+                                <div class="card-body"> -->
+                                <div style="background-image:url(./theme/accessory-image-1.jpg);
+                                background-size: cover;
+                                background-position: center; 
+                                height: 150px;"></div>
+                                    <h5 class="card-title fs-6 pt-2">Benefits</h5>
+                                    <p class="card-text" style="font-size:11px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, doloribus. Dolore nostrum non aliquam ipsa quas, quasi esse suscipit perferendis officiis illum</p>
+                                    <h6 class="text-primary" style="font-size:12px;">Learn More<i class="fa-solid fa-angle-right ms-1"></i></h6>
+                                <!-- </div> -->
+                            </div>
+
+                            <!-- CARD 2 -->
+                            <div class="p-2 bg-white" style="width: 18rem;">
+                                <!-- <img src="./theme/accessory-image-1.jpg" class="card-img-top" alt="image1">
+                                <div class="card-body"> -->
+                                <div style="background-image:url(./theme/accessory-image-2.jpg);
+                                background-size: cover;
+                                background-position: center;
+                                height: 150px;"></div>
+                                    <h5 class="card-title fs-6 pt-2">Benefits</h5>
+                                    <p class="card-text" style="font-size:11px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, doloribus. Dolore nostrum non aliquam ipsa quas, quasi esse suscipit perferendis officiis illum</p>
+                                    <h6 class="text-primary" style="font-size:12px;">Learn More<i class="fa-solid fa-angle-right ms-1"></i></h6>
+                                <!-- </div> -->
+                            </div>
+
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <!-- FOOTER -->
+                <div class="container-fluid p-0">
+                    <div class="bg-primary d-flex justify-content-end">
+                        <div class="pt-3 pb-3">
+                            <h5 class="text-white display-6 fs-5">Follow Us</h5>
+                            <div class="pe-5">
+                                <img src="./theme/f.png" style='width: 25px; height: auto; object-fit: contain;' alt="facebook">
+                                <img src="./theme/t.png" style='width: 25px; height: auto; background-size: contain;' alt="twitter">
+                                <img src="./theme/yt.png" style='width: 25px; height: auto; background-size: contain;' alt="youtube">
+                                <img src="./theme/l.png" style='width: 25px; height: auto; background-size: contain;' alt="linkedin">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="py-4" style='background-color: darkblue; font-size: 6px'>
+                        <h6 class="text-white text-center fs-6 display-6">&#169 2019 Woburn Hospital</h6>
+                    </div>
+                </div>
+
             </div>
         </div>
 

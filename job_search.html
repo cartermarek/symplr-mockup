@@ -69,26 +69,28 @@
         <!-- SIDEBAR W/ JOB SEARCH CONTENT & MAP-->
 
         <div class="d-flex container-fluid mt-4">
-            <div class="row border">
-                <div class="col-4 d-flex align-items-end">
-                    <h4 class="text-nowrap fw-light me-2">Refine Your Search</h4>
-                    <h6 class="text-nowrap text-primary fw-normal">Clear All</h6>
-                </div>
+            <div class="row">
                 <div>
-                    <hr class='w-100' style="height: 2px;border-width: 0;">
+                <div class="col-3 d-flex align-items-baseline mb-2">
+                    <h4 class="text-nowrap fw-light me-2">Refine Your Search</h4>
+                    <h6 class="text-nowrap text-primary fw-normal ">Clear All</h6>
                 </div>
-                <div class="d-flex justify-content-between align-items-baseline">
+                <!-- <div>
+                    <hr class='w-100' style="height: 2px;border-width: 0;">
+                </div> -->
+                <div class="d-flex justify-content-between align-items-baseline border-top border-dark pt-2">
                         <h5 class="text-nowrap fw-light">Department</h5>
-                        <h6 class="fs-1 fw-bold me-2">-</h6>
+                        <i class="fa-solid fa-minus pe-4"></i>
                 </div>
 
-        <!-- SIDEBAR -->
+                <!-- SIDEBAR -->
 
                 <ul class="list-group list-group-flush ms-2 fs-6">
                     <li class="list-group-item d-flex justify-content-between">
                         <div class="d-flex">
                             <i class="fa-solid fa-o me-1"></i>
                             <h6 class="">3 North Med/Surg</h6>
+                        </div>
                         <span class="fw-bold">41</span>
                     </li>
                     <li class="list-group-item d-flex justify-content-between">
@@ -151,7 +153,7 @@
                         
                         <span class="fw-bold">8</span>
                     </li>
-                    <li class="list-group-item d-flex justify-content-between">
+                    <li class="list-group-item d-flex justify-content-between border-bottom">
                         <div class="d-flex">
                             <i class="fa-solid fa-o me-1"></i>
                             <h6>Dietary</h6>
@@ -161,10 +163,6 @@
                     </li>
                 </ul>
 
-                <!-- 2ND LINE UNDER SIDEBAR -->
-                <div>
-                    <hr style="width: 100%;">
-                </div>
 
                 <!-- SHOW MORE -->
                 <div class="d-flex text-primary align-items-baseline">
@@ -172,58 +170,273 @@
                     <h6 class="ms-1">Show more</h6>
                 </div>
                     
-                <div>
-                    <ul class="list-group list-group-flush">
+                <!-- OTHER MENUS -->
+                    <ul class="list-group list-group-flush mt-4 ">
                         <li class="list-group-item d-flex justify-content-between">
-                                <h6>City</h6>
+                                <h5 class="fw-light">City</h5>
                                 <i class="fa-solid fa-plus"></i>
                         </li>
                         <li class="list-group-item d-flex justify-content-between">
-                            <div class="d-flex">
-                                <h6>State</h6>
+                                <h5 class="fw-light">State</h5>
                                 <i class="fa-solid fa-plus"></i>
-                            </div>
                         </li>
                         <li class="list-group-item d-flex justify-content-between">
-                            <div class="d-flex">
-                                <h6>Job Family</h6>
+                                <h5 class="fw-light">Job Family</h5>
                                 <i class="fa-solid fa-plus"></i>
-                            </div>
                         </li>
                         <li class="list-group-item d-flex justify-content-between">
-                            <div class="d-flex">
-                                <h6>Facility</h6>
+                                <h5 class="fw-light">Facility</h5>
                                 <i class="fa-solid fa-plus"></i>
-                            </div>
                         </li>
                         <li class="list-group-item d-flex justify-content-between">
-                            <div class="d-flex">
-                                <h6>Schedule</h6>
+                                <h5 class="fw-light">Schedule</h5>
                                 <i class="fa-solid fa-plus"></i>
-                            </div>
                         </li>
-                        <li class="list-group-item d-flex justify-content-between">
-                            
-                                <h6>Shift</h6>
+                        <li class="list-group-item d-flex justify-content-between border-bottom">
+                                <h5 class="fw-light">Shift</h5>
                                 <i class="fa-solid fa-plus"></i>
-                            
                         </li>
                     </ul>
+
+                    <!-- BOTTOM LEFT BOX -->
+                    <div class="container mt-2">
+                        <div class="row">
+                            <div class="col-11 border rounded d-flex flex-column m-auto p-3">
+                                <h5 class="lh-base">Interested in working for Woburn Hospital?</h5>
+                                <h5 class="lh-base">Take the first step by joining our Talent Network today!</h5>
+                                <button class="btn text-white w-75 mt-4" style="background-color:darkblue">Join our Talent Network</button>
+                            </div>
+                        </div>
+                    </div>
+</div>
+            </div>
+
+            <!-- JOB SEARCH RESULTS / RIGHT SIDE -->
+            <div class="row col-9 ms-2 ps-3">
+                <div class="col">
+                <div style="">
+                    <h1 class="text-secondary">Job Search Results</h1>
+                    <div class="mt-4 p-5 position-relative" style='background-image: url(./theme/category-image-1.jpg);
+                    height: 250px;
+                    background-repeat: no-repeat;
+                    background-position-y:center;
+                    background-size: cover;
+                    '>
+                        <div class='bg-white bg-opacity-50 position-absolute top-0 start-0 d-flex flex-column justify-content-center ps-4 pe-5' style="height: 100%; width: 50%;">
+                            <h3>Working at Woburn Hospital</h3>
+                            <h6 class="lh-base">As a large and growing organization, we offer a full range of career options at every level of health care employment. We are a widely-respected teaching institution, with nationally known teachers and physicians. Doctors work with the latest in state-of-the-art medical technology and top-performing, highly motivated support teams.</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MAP SECTION -->
+
+                <div class="mt-4">
+                    <div class="d-flex justify-content-end align-items-baseline text-primary">
+                        <h6 class="me-1">Hide map</h6>
+                        <i class="fa-solid fa-map"></i>
+                    </div>
+                    <img src="./theme/maps.jpg" class="img-fluid" alt="map">
+                </div>
+
+                <div class="d-grid">
+                    <button class='btn' style="background: #ececec;" ><i class="fa-solid fa-bell me-1"></i>Set up Job Alert</button>
+                </div>
+
+                <!-- JOB RESULTS BOTTOM -->
+                <div class="d-flex justify-content-end align-items-end mt-4 pb-3 border-bottom text-secondary">
+                    <h2 class="fs-6 me-2">Sort by:</h2>
+                    <div class="dropdown d-grid d-md-block col-3">
+                        <button class="btn border dropdown-toggle text-start" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Default
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="sortMenu">
+                            <li>
+                                <button class="dropdown-item" type="button">Relevant</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" type="button">Oldest</button>
+                            </li>
+                            <li>
+                                <button class="dropdown-item" type="button">Newest</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- JOB LIST -->
+                <div class="mt-3">
+                    <!-- LISTING 1 -->
+                    <div class="d-flex justify-content-between row  text-secondary pb-3 border-bottom">
+                        <div class="col-6">
+                            <h4 class="text-primary">General Surgeon</h4>
+                            <div class="mt-5 d-flex align-items-baseline">
+                                <i class="fa-solid fa-location-pin float-start fa-lg me-2"></i>
+                                <h5 class="">Danville, NH, United States</h5>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-hospital float-start me-1"></i>
+                                <h6>Hospital Main Campus</h6>
+                            </div>
+                            <div class="d-flex">
+                                <i class="fa-solid fa-clock me-2"></i>
+                                <h6>Full time - Varies</h6>
+                            </div>
+                            <h6>
+                                <span>Req #:</span>2654-674749501126213674
+                            </h6>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-primary col" style="width: 100%;">Apply Now</button>
+                            <div class="d-flex align-items-baseline">
+                                <i class="fa-solid fa-sitemap float-start me-1"></i>
+                                <h6 class="mt-5" style="width:fit-content">3 North Med/Surg</h6>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-tag float-start me-1"></i>
+                                <h6>Physician</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex col-4 align-items-center justify-content-end">
+                            <i class="fa-solid fa-calendar me-2 pb-1"></i>
+                            <h5>Jan 15, 2020</h5>
+                        </div>
+                    </div>
+
+                    <!-- LISTING 2 -->
+                    <div class="d-flex justify-content-between row  text-secondary mt-3 pb-3 border-bottom">
+                        <div class="col-6">
+                            <h4 class="text-primary">Billing Representative</h4>
+                            <div class="mt-5 d-flex align-items-baseline">
+                                <i class="fa-solid fa-location-pin float-start fa-lg me-2"></i>
+                                <h5 class="">Woburn, MA, United States</h5>
+                            </div>
+                            <div class="d-flex">
+                                <i class="fa-solid fa-clock me-2"></i>
+                                <h6>Needs Basis - Flex-time</h6>
+                            </div>
+                            <h6>
+                                <span>Req #:</span>2670-674749501126213687
+                            </h6>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-primary col" style="width: 100%;">Apply Now</button>
+                            
+                            <div clas="d-flex align-items-baseline">
+                                <i class="fa-solid fa-tag float-start me-1"></i>
+                                <h6 class="mt-5">Administrative/Clerical</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex col-4 align-items-center justify-content-end">
+                            <i class="fa-solid fa-calendar me-2 pb-1"></i>
+                            <h5>Jan 15, 2020</h5>
+                        </div>
+                    </div>
+
+                    <!-- LISTING 3 -->
+                    <div class="d-flex justify-content-between row  text-secondary mt-3 pb-2">
+                        <div class="col-6">
+                            <h4 class="text-primary">Advanced Practice Nurse/Trauma Coordinator</h4>
+                            <div class="mt-5 d-flex align-items-baseline">
+                                <i class="fa-solid fa-location-pin float-start fa-lg me-2"></i>
+                                <h5 class="">Danville, NH, United States</h5>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-hospital float-start me-1"></i>
+                                <h6>Hospital Main Campus</h6>
+                            </div>
+                            <div class="d-flex">
+                                <i class="fa-solid fa-clock me-2"></i>
+                                <h6>Full time - Days</h6>
+                            </div>
+                            <h6>
+                                <span>Req #:</span>3139-674749518134116375
+                            </h6>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-primary col" style="width: 100%;">Apply Now</button>
+                            <div class="d-flex align-items-baseline">
+                                <i class="fa-solid fa-sitemap float-start me-1"></i>
+                                <h6 class="mt-5" style="width:fit-content">Nursing</h6>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-tag float-start me-1"></i>
+                                <h6>Physician</h6>
+                            </div>
+                        </div>
+                        <div class="d-flex col-4 align-items-center justify-content-end">
+                            <i class="fa-solid fa-calendar me-2 pb-1"></i>
+                            <h5>Jan 15, 2020</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PAGINATION -->
+                <div class="d-flex justify-content-end align-items-baseline">
+                    <div class="d-flex justify-content-end align-items-baseline me-4">
+                        <h6 class="me-2">Page</h6>
+                        <!-- <div class="input-group"> -->
+                            <input type="text" class="text-center" style="width: 30px" value="1">
+                        <!-- </div> -->
+                        <h6 class="ms-2">of 10</h6>
+                    </div>
+
+                    <nav aria-label="job search page navigation">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a href="#" aria-label="prev" class="page-link text-white" style="background-color: darkblue">
+                                    <span aria-hidden="true">
+                                        <i class="fa-solid fa-angle-left"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="page-item">
+                                <a href="#" aria-label="next" class="page-link bg-primary text-white">
+                                    <span aria-hidden="true">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- BOTTOM OF SCREEN BOX -->
+                <div class="container mt-3 mb-3 w-100" style="width: 100vw">
+                    <div class="row border rounded text-secondary">
+                        <div class="col-8 d-flex flex-column m-auto p-3">
+                            <h5 class="lh-base">Can't find the job you're looking for?</h5>
+                            <h6 class="lh-base">Join our Talent Network to opt-in to all our current and future opportunities!</h6>
+                        </div>
+                        <div class="col-4">
+                            <button class="btn text-white w-75 mt-4" style="background-color:darkblue">Join our Talent Network</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            
+        </div>
+        
+        </div>
+
+        <!-- FOOTER -->
+        <div class="container-fluid">
+            <div class="bg-primary d-flex justify-content-end">
+                <div class="pt-3 pb-3">
+                    <h5 class="text-white display-6 fs-5">Follow Us</h5>
+                    <div class="pe-5">
+                        <img src="./theme/f.png" style='width: 35px; height: auto; object-fit: contain;' alt="facebook">
+                        <img src="./theme/t.png" style='width: 35px; height: auto; background-size: contain;' alt="twitter">
+                        <img src="./theme/yt.png" style='width: 35px; height: auto; background-size: contain;' alt="youtube">
+                        <img src="./theme/l.png" style='width: 35px; height: auto; background-size: contain;' alt="linkedin">
+                    </div>
                 </div>
             </div>
-            <div class="row border col-8 ms-2">
-                <div class="">
-                    Job Search Results
-                </div>
-                <div>
-                    Map
-                </div>
-                <div>
-                    <button class="d-grid"></button>
-                </div>
-                <div>
-                    Job Results
-                </div>
+            <div class="py-4" style='background-color: darkblue; font-size: 6px'>
+                <h6 class="text-white text-center fs-6 display-6">&#169 2019 Woburn Hospital</h6>
             </div>
         </div>
 
