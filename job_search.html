@@ -214,7 +214,7 @@
             <!-- JOB SEARCH RESULTS / RIGHT SIDE -->
             <div class="row col-9 ms-2 ps-3">
                 <div class="col">
-                <div style="">
+                <div>
                     <h1 class="text-secondary">Job Search Results</h1>
                     <div class="mt-4 p-5 position-relative" style='background-image: url(./theme/category-image-1.jpg);
                     height: 250px;
@@ -231,25 +231,36 @@
 
                 <!-- MAP SECTION -->
 
-                <div class="mt-4">
+                <div class="mt-4 mb-4 px-3">
                     <div class="d-flex justify-content-end align-items-baseline text-primary">
                         <h6 class="me-1">Hide map</h6>
                         <i class="fa-solid fa-map"></i>
                     </div>
-                    <img src="./theme/maps.jpg" class="img-fluid" alt="map">
+                    <div style="max-height: 343px; overflow: hidden;">
+                        <div class="text-center mt-1 mb-4" style="background-image:url(https://www.business2community.com/wp-content/uploads/2017/11/map-600x343.jpg); width: 1000px; height: 600px; background-size: cover; background-positon: center;">
+                            <!-- <img src="https://www.business2community.com/wp-content/uploads/2017/11/map-600x343.jpg" class="img-fluid" style="background-position: center;" alt="map"> -->
+                        </div>
+                    </div>
                 </div>
 
-                <div class="d-grid">
+                <div class="d-grid px-3">
                     <button class='btn' style="background: #ececec;" ><i class="fa-solid fa-bell me-1"></i>Set up Job Alert</button>
                 </div>
 
                 <!-- JOB RESULTS BOTTOM -->
-                <div class="d-flex justify-content-end align-items-end mt-4 pb-3 border-bottom text-secondary">
+                <div class="d-flex justify-content-end align-items-end mt-4 pb-3 px-3 border-bottom text-secondary">
                     <h2 class="fs-6 me-2">Sort by:</h2>
                     <div class="dropdown d-grid d-md-block col-3">
-                        <button class="btn border dropdown-toggle text-start" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Default
-                        </button>
+                        <div class=" border rounded d-flex justify-content-between">
+                            
+                            <button class="btn dropdown-toggle-split fw-normal" type="button">
+                                Default
+                            </button>
+                            <button type='button' id="sortMenu" class='btn drowdown-toggle dropdown-toggle-split' data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-caret-down fa-2xs"></i>
+                            </button>
+                        </div>
+                        
                         <ul class="dropdown-menu" aria-labelledby="sortMenu">
                             <li>
                                 <button class="dropdown-item" type="button">Relevant</button>
@@ -265,7 +276,7 @@
                 </div>
 
                 <!-- JOB LIST -->
-                <div class="mt-3">
+                <div class="mt-3 px-3">
                     <!-- LISTING 1 -->
                     <div class="d-flex justify-content-between row  text-secondary pb-3 border-bottom">
                         <div class="col-6">
